@@ -2,7 +2,7 @@
 version: '3'
 services:
   girder:
-    image: ahmednaglah/digital_slide_archive
+    image: ahmednaglah/digital_slide_archive1
     build: ../..
     # Instead of privileged mode, fuse can use:
     # devices:

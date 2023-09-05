@@ -1,8 +1,8 @@
 =============================
-Install Digital Slide Archive
+Install PathoGenerativeAI
 =============================
 
-There are several ways to install the Digital Slide Archive and HistomicsUI.  If you intend to use the interface, use the Docker installation.  If you don't have docker installed, the Vagrant installation is the easiest method.
+There are several ways to install the PathoGenerativeAI and HistomicsUI.  If you intend to use the interface, use the Docker installation.  If you don't have docker installed, the Vagrant installation is the easiest method.
 
 This has been tested on systems with 4 Gb of RAM and 20 Gb of disk space, though it works better with more memory.
 
@@ -49,7 +49,7 @@ Install the python docker module::
 
     sudo pip install docker
 
-Get the Digital Slide Archive repository::
+Get the PathoGenerativeAI repository::
 
     git clone https://github.com/DigitalSlideArchive/digital_slide_archive
 
@@ -63,7 +63,7 @@ Deploy
 
 There are many options that can be used along with the ``deploy_docker.py`` command, use ``deploy_docker.py --help`` to list them.
 
-By default, the deployment places all database, log, and assetstore files in the ``~/.dsa`` directory.  The Digital Slide Archive is run on localhost at port 8080.
+By default, the deployment places all database, log, and assetstore files in the ``~/.dsa`` directory.  The PathoGenerativeAI is run on localhost at port 8080.
 
 A default administrator account is created with the username ``admin`` and password ``password``.  The password can be changed after the first start, or a new administrator account with a different username can be created and the default ``admin`` user deleted.  If you change the administrator user or password, subsequent runs of ``deploy_docker.py`` will require specifying the appropriate user and password or passing the appropriate option to request the username and password on the terminal.
 
@@ -79,7 +79,7 @@ Update an installation
     git pull
     # Make sure you have the latest docker images.
     python deploy_docker.py pull
-    # stop and remove the running docker containers for the Digital Slide Archive
+    # stop and remove the running docker containers for the PathoGenerativeAI
     python deploy_docker.py rm
     # Restart and provision the new docker containers.  Use the same
     # command-line parameters as you originally used to start the Digital Slide
@@ -102,7 +102,7 @@ Install VirtualBox, Vagrant, and git:
 - Download and install virtual box - https://www.virtualbox.org/wiki/Downloads
 - Download and install vagrant - https://www.vagrantup.com/downloads.html
 
-Get the Digital Slide Archive repository::
+Get the PathoGenerativeAI repository::
 
     git clone https://github.com/DigitalSlideArchive/digital_slide_archive
 
@@ -125,7 +125,7 @@ http://localhost:8009/histomicstk.
 Docker and Reverse Proxy
 ------------------------
 
-One common deployment is to install the Digital Slide Archive via docker and expose it as a subdirectory on another web host via a reverse proxy.  For instance, instead of having the Digital Slide Archive be reached at ``http://myserver.com:8080``, you can have it reachable at ``http://myserver.com/dsa/``.  To do this, a webserver is needed to provide the reverse proxy redirection, and some additional configuration needs to be specified as part of the provisioning of the docker containers.
+One common deployment is to install the PathoGenerativeAI via docker and expose it as a subdirectory on another web host via a reverse proxy.  For instance, instead of having the PathoGenerativeAI be reached at ``http://myserver.com:8080``, you can have it reachable at ``http://myserver.com/dsa/``.  To do this, a webserver is needed to provide the reverse proxy redirection, and some additional configuration needs to be specified as part of the provisioning of the docker containers.
 
 Follow the guide for `Girder Reverse Proxy <https://girder.readthedocs.io/en/latest/deployment-alternatives.html?reverse-proxy>`_ to configure Apache or nginx appropriately.
 

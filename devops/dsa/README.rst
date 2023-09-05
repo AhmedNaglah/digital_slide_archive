@@ -1,8 +1,8 @@
 ========================================
-Digital Slide Archive via Docker Compose
+PathoGenerativeAI via Docker Compose
 ========================================
 
-This directory contains a complete docker-compose set up for the Digital Slide Archive.
+This directory contains a complete docker-compose set up for the PathoGenerativeAI.
 
 Edit the docker-compose.yml file (or add a docker-compose override file) to add mount points for additional data or for exposing additional ports.
 
@@ -13,7 +13,7 @@ Before using this, you need both Docker and docker-compose.  See the `official i
 
 The docker-compose file assumes certain file paths.  This has been tested on Ubuntu 20.04.  It will probably work on other Linux variants.
 
-Get the Digital Slide Archive repository::
+Get the PathoGenerativeAI repository::
 
     git clone https://github.com/DigitalSlideArchive/digital_slide_archive
 
@@ -30,7 +30,7 @@ To get the most recent built docker images, do::
 
 If you don't pull the images, the main image will be built in preference to pulling.
 
-To start the Digital Slide Archive::
+To start the PathoGenerativeAI::
 
     DSA_USER=$(id -u):$(id -g) docker-compose up
 
@@ -41,7 +41,7 @@ The girder instance can now be accessed at http://localhost:8080. By default, it
 Stop
 ----
 
-To stop the Digital Slide Archive::
+To stop the PathoGenerativeAI::
 
     docker-compose down -v
 
@@ -87,7 +87,7 @@ The Digital Slider Archive is built in Girder and Girder Worker.  Here, these ar
 
 - `Memcached <https://memcached.org/>`_.  Memcached is used to cache data for faster access.  This is used for large tiled images.
 
-The Digital Slide Archive relies on several Girder plugins:
+The PathoGenerativeAI relies on several Girder plugins:
 
 - `large_image <https://github.com/girder/large_image>`_.  This provides a standardized way to access a wide range of image formats.  Images can be handled as multi-resolution tiles.  large_image has numerous tile sources to handle different formats.
 

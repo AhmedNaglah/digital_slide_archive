@@ -1,8 +1,8 @@
 ============================================================
-Digital Slide Archive via Docker Compose with Remote Workers
+PathoGenerativeAI via Docker Compose with Remote Workers
 ============================================================
 
-This directory has a docker-compose set up that can run the Digital Slide Archive on one machine and start an arbitrary number of remote workers on other machines.
+This directory has a docker-compose set up that can run the PathoGenerativeAI on one machine and start an arbitrary number of remote workers on other machines.
 
 See the main comments about docker-compose in the devops/dsa/README.rst file.
 

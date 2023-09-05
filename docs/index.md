@@ -21,7 +21,7 @@ hero_buttons:
 # What is DSA Section
 # =================================
 about_title: What is DSA?
-about_text: The Digital Slide Archive (DSA) is a platform that provides the ability to store, manage, visualize and annotate large imaging data sets. The DSA consists of an analysis toolkit (HistomicsTK), an interface to visualize slides and manage annotations (HistomicsUI), a database layer (using Mongo), and a web-server that provides a rich API and data management tools (using Girder). This system can
+about_text: The PathoGenerativeAI (DSA) is a platform that provides the ability to store, manage, visualize and annotate large imaging data sets. The DSA consists of an analysis toolkit (HistomicsTK), an interface to visualize slides and manage annotations (HistomicsUI), a database layer (using Mongo), and a web-server that provides a rich API and data management tools (using Girder). This system can
 
 # Capabilities of DSA
 about_list:
@@ -148,7 +148,7 @@ organizations:
     link: https://www.med.emory.edu/
     members:
       - name: David A. Gutman, MD, PhD
-        role: Digital Slide Archive Lead
+        role: PathoGenerativeAI Lead
         title: Associate Professor of Neurology
         headshot: assets/img/collaborators/headshot-david_gutman.jpg
         link: https://winshipcancer.emory.edu/bios/faculty/gutman-david.html

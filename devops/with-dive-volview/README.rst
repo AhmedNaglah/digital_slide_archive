@@ -1,8 +1,8 @@
 ===========================================
-Digital Slide Archive with Dive and VolView
+PathoGenerativeAI with Dive and VolView
 ===========================================
 
-This directory contains a docker-compose set up for the Digital Slide Archive with additional plugins to integrate with Dive and VolView.
+This directory contains a docker-compose set up for the PathoGenerativeAI with additional plugins to integrate with Dive and VolView.
 
 You will probably want better container names than docker-compose will choose by default.
 

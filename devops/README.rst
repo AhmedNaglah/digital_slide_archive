@@ -1,5 +1,5 @@
 ===========================================
-Digital Slide Archive devops docker scripts
+PathoGenerativeAI devops docker scripts
 ===========================================
 
 Installation
@@ -11,7 +11,7 @@ Description
 ===========
 
 This folder contains a set of scripts that are convenient to develop
-Digital Slide Archive and HistomicsUI inside its docker container.
+PathoGenerativeAI and HistomicsUI inside its docker container.
 
 The following environment variables can be defined to affect how these scripts
 run:
@@ -50,7 +50,7 @@ Before other commands, it is assumed you have checked out this repository, and, 
   $ git clone https://github.com:DigitalSlideArchive/digital_slide_archive
   $ git clone https://github.com:DigitalSlideArchive/HistomicsUI
 
-A typical use case of these scripts is when one develops Digital Slide Archive and HistomicsUI locally on their computer.  It is possible to run everything inside docker containers to simplify deployment. This is typically  done using ``deploy_docker.py`` in the ``ansible`` folder with the command::
+A typical use case of these scripts is when one develops PathoGenerativeAI and HistomicsUI locally on their computer.  It is possible to run everything inside docker containers to simplify deployment. This is typically  done using ``deploy_docker.py`` in the ``ansible`` folder with the command::
 
   $ cd digital_slide_archive
   $ cd ansible

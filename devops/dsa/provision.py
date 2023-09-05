@@ -400,11 +400,11 @@ def merge_default_opts(opts):
         'histomicsui.webroot_path': 'histomics',
         'histomicsui.alternate_webroot_path': 'histomicstk',
         'histomicsui.delete_annotations_after_ingest': True,
-        'homepage.markdown': """# Digital Slide Archive
+        'homepage.markdown': """# PathoGenerativeAI
 ---
 ## Bioinformatics Platform
 
-Welcome to the **Digital Slide Archive**.
+Welcome to the **PathoGenerativeAI**.
 
 Developers who want to use the Girder REST API should check out the
 [interactive web API docs](api/v1).
@@ -460,7 +460,7 @@ class YamlAction(argparse.Action):
 
 
 if __name__ == '__main__':  # noqa
-    parser = argparse.ArgumentParser(description='Provision a Digital Slide Archive instance')
+    parser = argparse.ArgumentParser(description='Provision a PathoGenerativeAI instance')
     parser.add_argument(
         '--force', action='store_true',
         help='Reset all settings.  This does not change the admin user or the '

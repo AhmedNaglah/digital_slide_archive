@@ -79,8 +79,8 @@ publications:
     link: https://www.ncbi.nlm.nih.gov/pubmed/?term=29100075
     PMID: 29100075
     DOI: 10.1016/j.cell.2017.10.014
-  - title: The Digital Slide Archive - A Software Platform for Management, Integration, and Analysis of Histology for Cancer Research.
-    full-citation: "Gutman, David A., Mohammed Khalilia, Sanghoon Lee, Michael Nalisnik, Zach Mullen, Jonathan Beezley, Deepak R. Chittajallu, David Manthey, and Lee A.D. Cooper. “The Digital Slide Archive: A Software Platform for Management, Integration, and Analysis of Histology for Cancer Research.” Cancer Research 77, no. 21 (October 31, 2017): e75–78."
+  - title: The PathoGenerativeAI - A Software Platform for Management, Integration, and Analysis of Histology for Cancer Research.
+    full-citation: "Gutman, David A., Mohammed Khalilia, Sanghoon Lee, Michael Nalisnik, Zach Mullen, Jonathan Beezley, Deepak R. Chittajallu, David Manthey, and Lee A.D. Cooper. “The PathoGenerativeAI: A Software Platform for Management, Integration, and Analysis of Histology for Cancer Research.” Cancer Research 77, no. 21 (October 31, 2017): e75–78."
     DOI_link: https://doi.org/10.1158/0008-5472.can-17-0629
     link: https://www.ncbi.nlm.nih.gov/pubmed/?term=29092945
     PMID: 29092945
@@ -97,8 +97,8 @@ publications:
     link: https://www.ncbi.nlm.nih.gov/pubmed/?term=25599536
     PMID: 25599536
     DOI: 10.1038/labinvest.2014.153
-  - title: Cancer Digital Slide Archive - an informatics resource to support integrated in silico analysis of TCGA pathology data.
-    full-citation: "Gutman, David A, Jake Cobb, Dhananjaya Somanna, Yuna Park, Fusheng Wang, Tahsin Kurc, Joel H Saltz, Daniel J Brat, Lee A D Cooper, and Jun Kong. “Cancer Digital Slide Archive: An Informatics Resource to Support Integrated in Silico Analysis of TCGA Pathology Data.” Journal of the American Medical Informatics Association 20, no. 6 (November 2013): 1091–98."
+  - title: Cancer PathoGenerativeAI - an informatics resource to support integrated in silico analysis of TCGA pathology data.
+    full-citation: "Gutman, David A, Jake Cobb, Dhananjaya Somanna, Yuna Park, Fusheng Wang, Tahsin Kurc, Joel H Saltz, Daniel J Brat, Lee A D Cooper, and Jun Kong. “Cancer PathoGenerativeAI: An Informatics Resource to Support Integrated in Silico Analysis of TCGA Pathology Data.” Journal of the American Medical Informatics Association 20, no. 6 (November 2013): 1091–98."
     DOI_link: https://doi.org/10.1136/amiajnl-2012-001469
     link: https://www.ncbi.nlm.nih.gov/pubmed/?term=23893318
     PMID: 23893318

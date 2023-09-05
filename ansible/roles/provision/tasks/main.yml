@@ -151,7 +151,7 @@
       path: system/setting
       parameters:
         key: "core.brand_name"
-        value: "Digital Slide Archive"
+        value: "PathoGenerativeAI"
 
 - name: Set the histomics webroot setting.
   girder:
@@ -190,11 +190,11 @@
       parameters:
         key: homepage.markdown
         value: |
-          # Digital Slide Archive
+          # PathoGenerativeAI
           ---
           ## Bioinformatics Platform
 
-          Welcome to the **Digital Slide Archive**.
+          Welcome to the **PathoGenerativeAI**.
 
           Developers who want to use the Girder REST API should check out the [interactive web API docs](api/v1).
 

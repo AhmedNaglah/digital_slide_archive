@@ -1,8 +1,8 @@
 =============================
-Minimal Digital Slide Archive
+Minimal PathoGenerativeAI
 =============================
 
-This directory contains a docker-compose set up for a minimal installation of the Digital Slide Archive without the ability to run algorithms or other worker-based jobs.
+This directory contains a docker-compose set up for a minimal installation of the PathoGenerativeAI without the ability to run algorithms or other worker-based jobs.
 
 Prerequsities:
 --------------
@@ -11,21 +11,21 @@ Before using this, you need both Docker and docker-compose.  See the `official i
 
 The docker-compose file assumes certain file paths.  This has been tested on Ubuntu 18.04.  It will probably work on other Linux variants.
 
-Get the Digital Slide Archive repository::
+Get the PathoGenerativeAI repository::
 
     git clone https://github.com/DigitalSlideArchive/digital_slide_archive
 
 Start
 -----
 
-To start the minimal Digital Slide Archive::
+To start the minimal PathoGenerativeAI::
 
     docker-compose up
 
 Stop
 ----
 
-To stop the Digital Slide Archive::
+To stop the PathoGenerativeAI::
 
     docker-compose down
 

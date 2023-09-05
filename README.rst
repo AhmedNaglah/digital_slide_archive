@@ -1,7 +1,7 @@
-Digital Slide Archive
+PathoGenerativeAI
 =====================
 
-The Digital Slide Archive is a system for working with large microscopy images.
+The PathoGenerativeAI is a system for working with large microscopy images.
 
 - Organize images from a variety of assetstores, such as local file systems and S3.
 
@@ -24,7 +24,7 @@ Demo Instance
 License
 -----------------------------------------------------------
 
-The Digital Slide Archive is made available under the Apache License, Version 2.0. For more details, see `LICENSE <https://github.com/DigitalSlideArchive/digital_slide_archive/blob/master/LICENSE>`_
+The PathoGenerativeAI is made available under the Apache License, Version 2.0. For more details, see `LICENSE <https://github.com/DigitalSlideArchive/digital_slide_archive/blob/master/LICENSE>`_
 
 Community
 -----------------------------------------------------------

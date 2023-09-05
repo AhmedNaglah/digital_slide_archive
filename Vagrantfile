@@ -5,7 +5,7 @@ Vagrant.configure("2") do |config|
   config.vm.network "forwarded_port", guest: 22, host: 2209
   config.vm.network "forwarded_port", guest: 8080, host: 8009
   config.vm.provider "virtualbox" do |v|
-    v.name = "Digital Slide Archive Ubuntu 20.04"
+    v.name = "PathoGenerativeAI Ubuntu 20.04"
     # You may need to configure this to run benignly on your host machine
     v.memory = 4096
     v.cpus = 2

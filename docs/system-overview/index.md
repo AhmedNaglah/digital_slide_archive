@@ -11,13 +11,13 @@ hero_image: assets/img/home-callouts/system-overview.jpg
 
 <div class="system-overview-page" markdown="1">
 
-The Digital Slide Archive is typically either installed on a single computer or on one main computer with one or more worker machines to run image algorithms invoked through HistomicsUI or the API. There are additional options, such as having the database hosted in an external location, but these are uncommon.
+The PathoGenerativeAI is typically either installed on a single computer or on one main computer with one or more worker machines to run image algorithms invoked through HistomicsUI or the API. There are additional options, such as having the database hosted in an external location, but these are uncommon.
 
 ## Single Computer Setup
 
 ![Single Computer Diagram](../assets/img/system-diagrams/system-diagram-single-computer-setup.svg "Single Computer Diagram"){:width="75%"}
 
-The default installation of the Digital Slide Archive is on a single computer. This is the simplest way to deploy DSA, though image analysis tasks are limited by the processing power of a single system.
+The default installation of the PathoGenerativeAI is on a single computer. This is the simplest way to deploy DSA, though image analysis tasks are limited by the processing power of a single system.
 
 Image and other data files, the database, and log files are all stored on the local file system. Data files can also be stored or imported from external assetstores, such as Amazon S3.
 
@@ -29,7 +29,7 @@ When the `deploy_docker.py` script is used for installation, a set of five docke
 
 ![Distributed Workers Setup](../assets/img/system-diagrams/system-diagram-distributed-workers-setup.svg "Distributed Workers Setup Diagram"){:width="75%"}
 
-To expand computing power and accelerate image analysis, the Digital Slide Archive can be installed on one main computer and any number of worker machines.
+To expand computing power and accelerate image analysis, the PathoGenerativeAI can be installed on one main computer and any number of worker machines.
 
 Image and other data files, the database, and log files are all stored on the local file system of the main computer, just like in the single computer configuration. Of course data files can also be stored or imported from external assetstores, such as Amazon S3.
 

@@ -901,7 +901,7 @@ def wait_for_girder(client, ctn, maxWait=3600):
 
 if __name__ == '__main__':   # noqa
     parser = argparse.ArgumentParser(
-        description='Provision and run Digital Slide Archive in docker containers.')
+        description='Provision and run PathoGenerativeAI in docker containers.')
     parser.add_argument(
         'command',
         choices=['start', 'restart', 'stop', 'rm', 'remove', 'status',

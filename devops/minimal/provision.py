@@ -396,7 +396,7 @@ def merge_default_opts(opts):
         'worker.backend': 'rpc://guest:guest@rabbitmq',
         'worker.api_url': 'http://girder:8080/api/v1',
         'worker.direct_path': True,
-        'core.brand_name': 'Digital Slide Archive',
+        'core.brand_name': 'PathoGenerativeAI',
         'histomicsui.webroot_path': 'histomics',
         'histomicsui.alternate_webroot_path': 'histomicstk',
         'histomicsui.delete_annotations_after_ingest': True,

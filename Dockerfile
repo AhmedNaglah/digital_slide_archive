@@ -55,40 +55,40 @@ RUN python --version && \
 
 # Clone packages and pip install what we want to be local
 RUN cd /opt && \
-    git clone https://github.com/girder/girder && \
+    git clone https://github.com/AhmedNaglah/girder && \
     cd /opt/girder && \
     pip install --no-cache-dir -e .[mount] && \
     pip install --no-cache-dir -e clients/python
 
 RUN cd /opt && \
-    git clone https://github.com/girder/girder_worker_utils && \
+    git clone https://github.com/AhmedNaglah/girder_worker_utils && \
     cd /opt/girder_worker_utils && \
     pip install --no-cache-dir -e .
 
 RUN cd /opt && \
-    git clone https://github.com/girder/girder_worker && \
+    git clone https://github.com/AhmedNaglah/girder_worker && \
     cd /opt/girder_worker && \
     pip install --no-cache-dir -e .[girder,worker]
 
 RUN cd /opt && \
-    git clone https://github.com/DigitalSlideArchive/import-tracker.git && \
+    git clone https://github.com/AhmedNaglah/import-tracker.git && \
     cd /opt/import-tracker && \
     pip install --no-cache-dir -e .
 
 RUN cd /opt && \
-    git clone https://github.com/girder/slicer_cli_web && \
+    git clone https://github.com/AhmedNaglah/slicer_cli_web && \
     cd /opt/slicer_cli_web && \
     pip install --no-cache-dir -e .
 
 RUN cd /opt && \
-    git clone https://github.com/girder/large_image && \
+    git clone https://github.com/AhmedNaglah/large_image && \
     cd /opt/large_image && \
     pip install --no-cache-dir --find-links https://girder.github.io/large_image_wheels -e .[memcached] -rrequirements-dev.txt && \
     # Reduice docker size by de-duplicating some libraries that get installed \
     rdfind -minsize 1048576 -makehardlinks true -makeresultsfile false /opt/venv
 
 RUN cd /opt && \
-    git clone https://github.com/DigitalSlideArchive/HistomicsUI && \
+    git clone https://github.com/AhmedNaglah/HistomicsUI && \
     cd /opt/HistomicsUI && \
     pip install --no-cache-dir -e .[analysis]
 

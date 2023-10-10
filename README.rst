@@ -1,4 +1,4 @@
-Digital Slide Archive 
+Digital Slide Archive - 2023 
 =====================
 
 The PathoGenerativeAI is a system for working with large microscopy images.

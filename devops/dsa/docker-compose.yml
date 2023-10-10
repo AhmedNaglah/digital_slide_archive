@@ -2,7 +2,7 @@
 version: '3'
 services:
   girder:
-    image: ahmednaglah/digital_slide_archive
+    image: ahmednaglah/dsa_common
     build: ../..
     # Instead of privileged mode, fuse can use:
     # devices:
@@ -134,7 +134,7 @@ services:
         max-size: "10M"
         max-file: "5"
   worker:
-    image: ahmednaglah/digital_slide_archive
+    image: ahmednaglah/dsa_common
     build: ../..
     # Set DSA_USER to a user id that is part of the docker group (e.g.,
     # `DSA_USER=$(id -u):$(id -g)`).  This provides permissions to manage
